@@ -1,0 +1,58 @@
+{
+  "id": "58988097-83ed-440d-a50d-854418246840",
+  "name": "SampleCI/CD",
+  "publisher": "puac",
+  
+   "version": "1.0.0.0",
+  "brief": "",
+  "description": "testing of CICD",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "4c35f190-0720-4b61-b718-233cf699e63f",
+      "name": "FTAP Customer Extension",
+      "publisher": "Kation Technologies Inc.",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "912734db-afc7-4544-a755-660d66a8c134",
+      "name": "FTAP Setup Integration",
+      "publisher":  "Frontier Tower Associates Philippines",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "dc4b3ddf-1b1b-4caa-8683-3c9e1b6d322d",
+      "name": "PHTAX",
+      "publisher": "Associates 365",
+      "version": "19.0.0.0"
+    }
+  ],
+  "internalsVisibleTo"  :
+  [
+    {
+      "id": "30444dee-a284-4e6a-b24a-7b720e917563",
+      "name": "FTAP Customization",
+      "publisher": "Associates 365"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+"application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 80301,
+      "to": 80400
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "target": "Cloud",
+ "runtime": "12.0"
+}

@@ -116,11 +116,11 @@ Param(
 $errorActionPreference = "Stop"; $ProgressPreference = "SilentlyContinue"; Set-StrictMode -Version 2.0
 
 function DownloadHelperFile {
-    param(
-        [string] $url,
-        [string] $folder,
-        [switch] $notifyAuthenticatedAttempt
-    )
+        param(
+            [string] $url,
+            [string] $folder,
+            [switch] $notifyAuthenticatedAttempt
+        )
 
     $prevProgressPreference = $ProgressPreference; $ProgressPreference = 'SilentlyContinue'
     $name = [System.IO.Path]::GetFileName($url)
