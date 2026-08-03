@@ -4,6 +4,9 @@
       "path": "SampleCICD"
     },
     {
+      "path": "CiCd.Test"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
